@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://admin2:AjayShankar@cluster0.7cghn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    "MONGO ATLAS CONNECTION STRING"
   )
   .then(() => {
     console.log("Connected to DB");
